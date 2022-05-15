@@ -47,5 +47,5 @@ class Slider(models.Model):
     detedt_at = models.DateTimeField(null= True)
     
     def __str__(self) -> str:
-        return self.email
+        return self.titleOne
     
